@@ -73,7 +73,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
-      repoURL: https://github.com/<your-github-name>/<your-repo-name>.git
+      repoURL: https://github.com/blaccello/argo-example.git
       revision: HEAD
       directories:
         - path: crossplane/xrds/*
@@ -84,7 +84,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/<your-github-name>/<your-repo-name>.git
+        repoURL: https://github.com/blaccello/argo-example.git
         targetRevision: HEAD
         path: '{{.path.path}}'
         directory:
